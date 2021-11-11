@@ -7,7 +7,8 @@
 @LastEditors: Huangying Zhan
 @Description: This API runs DF-VO.
 '''
-
+import sys
+sys.path.append(".")
 import argparse
 import numpy as np
 import os
